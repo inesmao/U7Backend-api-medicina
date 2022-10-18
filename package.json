@@ -1,0 +1,30 @@
+{
+  "name": "u7backend-api-medicina",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inesmao/U7Backend-api-medicina.git"
+  },
+  "keywords": [],
+  "author": "Inés María Oliveros Hernández",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inesmao/U7Backend-api-medicina/issues"
+  },
+  "homepage": "https://github.com/inesmao/U7Backend-api-medicina#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
